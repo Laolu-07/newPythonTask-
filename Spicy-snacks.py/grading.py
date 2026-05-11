@@ -1,7 +1,7 @@
-fs = int(input('Enter first score: '))
-ss = int(input('Enter second score: '))
-ts = int(input('Enter third score: '))
-average = (fs + ss + ts)//3
+first = int(input('Enter first score: '))
+second = int(input('Enter second score: '))
+third = int(input('Enter third score: '))
+average = (first + second + third)//3
 if (average)>= 90:
 	print(average,'A')
 elif(average)>= 80:
